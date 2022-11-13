@@ -2,13 +2,13 @@ import "./App.css";
 
 export default function App() {
   let weatherData = {
-    city: "Kyiv",
-    date: "Today 16:02",
+    city: "Krakow",
+    date: "Today 16:19",
     description: "Cloudy",
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png",
-    humidity: "77",
-    wind: "2.5",
-    temperature: "19",
+    humidity: "80",
+    wind: "3.5 km/h",
+    temperature: "12",
   };
 
   return (
@@ -19,7 +19,7 @@ export default function App() {
             <div className="col-9">
               <input
                 type="search"
-                placeholder="Type a city.."
+                placeholder="Type a city..."
                 autofocus="on"
                 autocomplete="off"
                 className="form-control shadow-sm"
@@ -81,8 +81,10 @@ export default function App() {
         </div>
       </div>
       <div className="gitlink">
-        <a href="gg">Open-source code </a>
-        by hh
+        <a href="https://github.com/Viktoriia-Ocheretko/react-weather">
+          Open-source code
+        </a>
+        <span> by Viktoriia Ocheretko</span> 
       </div>
     </div>
   );
