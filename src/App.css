@@ -1,10 +1,10 @@
 .Weather {
-  border: 1px solid #9d9d9d;
+  border: 1px solid #262424;
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
   max-width: 600px;
-  background: radial-gradient(rgb(255, 255, 255) 0%, rgb(212, 211, 211) 97%);
+  background: radial-gradient(rgb(131, 228, 239) 0%, rgb(127, 208, 217) 97%);
 }
 .weather-icon {
   height: 64px;
@@ -13,7 +13,7 @@
 }
 
 .temperature {
-  color: rgb(46, 46, 212);
+  color: rgb(17, 20, 20);
   font-size: 55px;
   font-weight: 400;
   line-height: 1;
@@ -47,8 +47,7 @@
 }
 
 .weather-forecast-temp-min {
-  font-size: 66px;
-  color: #1ca59e;
+  color: #7c7c7c;
 }
 
 body {
